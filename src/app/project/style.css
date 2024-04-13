@@ -1,0 +1,8 @@
+.main-001 {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.main-001:hover {
+  transform: scale(1.01);
+}
