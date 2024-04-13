@@ -50,7 +50,7 @@ const About = () => {
             collaborate and breathe life into your ideas.
             <br />
             <br />
-            Let's turn the ordinary into extraordinary! 🚀🎨
+            Let&apos;s turn the ordinary into extraordinary! 🚀🎨
           </p>
         </div>
         <div className="flex justify-center items-center mt-5 pt-5">

@@ -39,7 +39,9 @@ const Project = () => {
               className="main-001"
             />
             <CardTitle>Park Adventure...</CardTitle>
-            <CardDescription>It's a simple site for adventure</CardDescription>
+            <CardDescription>
+              It&lsquo;s a simple site for adventure
+            </CardDescription>
             <CardFooter>
               <Link href="/project">
                 <Button>
@@ -59,7 +61,7 @@ const Project = () => {
             />
             <CardTitle>Famous World...</CardTitle>
             <CardDescription>
-              It's a simple site for dress store
+              It&lsquo;s a simple site for dress store
             </CardDescription>
             <CardFooter>
               <Link href="/project">
@@ -80,7 +82,7 @@ const Project = () => {
             />
             <CardTitle>Aligners...</CardTitle>
             <CardDescription>
-              It's a simple site for dental hospital
+              It&lsquo;s a simple site for dental hospital
             </CardDescription>
             <CardFooter>
               <Link href="/project">
@@ -102,7 +104,9 @@ const Project = () => {
               className="main-001"
             />
             <CardTitle>Portfolio...</CardTitle>
-            <CardDescription>It's a simple site for Portfolio</CardDescription>
+            <CardDescription>
+              It&lsquo;s a simple site for Portfolio
+            </CardDescription>
             <CardFooter>
               <Link href="/project">
                 <Button>
@@ -121,7 +125,9 @@ const Project = () => {
               className="main-001"
             />
             <CardTitle>D-Mart...</CardTitle>
-            <CardDescription>It's a simple site for Store</CardDescription>
+            <CardDescription>
+              It&lsquo;s a simple site for Store
+            </CardDescription>
             <CardFooter>
               <Link href="/project">
                 <Button>
@@ -140,7 +146,9 @@ const Project = () => {
               className="main-001"
             />
             <CardTitle>Music...</CardTitle>
-            <CardDescription>It's a simple site for Music band</CardDescription>
+            <CardDescription>
+              It&lsquo;s a simple site for Music band
+            </CardDescription>
             <CardFooter>
               <Link href="/project">
                 <Button>
