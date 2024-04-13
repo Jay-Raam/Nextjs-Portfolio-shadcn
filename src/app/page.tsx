@@ -8,12 +8,14 @@ import MyImage01 from "@/components/image/m2.webp";
 import Link from "next/link";
 import Image from "next/image";
 
-const occupations = ["Freelancer", "Blogger", "Gamer", "Writer", "Student"];
-
-interface SocialButtonProps {
-  href: string;
-  children: React.ReactNode;
-}
+const occupations = [
+  "Freelancer",
+  "Blogger",
+  "Gamer",
+  "Writer",
+  "Student",
+  "Self learner",
+];
 
 export default function Home() {
   const [currentOccupationIndex, setCurrentOccupationIndex] = useState(0);
@@ -40,7 +42,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center mx-auto my-0 items-center gap-8 max-w-[800px] mt-6 lg:flex-row lg:gap-4">
         <div className="flex w-full flex-col justify-center items-center gap-5 lg:w-[50%]">
-          <p className="text-2xl sm:text-3xl">I'm</p>
+          <p className="text-2xl sm:text-3xl">I&apos;m</p>
           <h1 className="font-bold sm:text-5xl lg:text-[30px]">Jayasriraam</h1>
           <p className="fade-occupations lg:text-xl sm:text-3xl text-center">
             Front-End Developer & <br />

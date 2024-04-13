@@ -46,7 +46,7 @@ const About = () => {
             design, where I demonstrate exceptional attention to detail and a
             talent for crafting visually captivating and intuitive interfaces.
             Eager to embark on my tech adventure, I bring not just skills, but a
-            creative mindset. Ready to roll up my sleeves, I'm here to
+            creative mindset. Ready to roll up my sleeves, I&apos;m here to
             collaborate and breathe life into your ideas.
             <br />
             <br />
