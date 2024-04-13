@@ -1,5 +1,6 @@
 import MyImage01 from "@/components/image/image 1.png";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image";
 import Link from "next/link";
 import MyImage02 from "@/components/image/image 2.png";
 import MyImage03 from "@/components/image/image 3.png";
@@ -49,49 +50,67 @@ const Skill = () => {
               Programming Languages
             </h1>
             <div className="image flex justify-center flex-wrap items-center gap-6 ">
-              <img
+              <Image
                 src={MyImage01.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage02.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage03.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage04.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage06.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage07.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage05.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage08.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage09.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
             </div>
@@ -101,49 +120,67 @@ const Skill = () => {
               Framework/Libraries and Version Control
             </h1>
             <div className="image flex justify-center flex-wrap items-center gap-6 ">
-              <img
+              <Image
                 src={MyImage10.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage11.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage12.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage13.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage14.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage15.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage16.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage17.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
-              <img
+              <Image
                 src={MyImage18.src}
                 alt="programming languages images"
+                width={25}
+                height={25}
                 className=" w-[30px] md:w-[40px]"
               />
             </div>

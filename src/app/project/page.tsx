@@ -6,6 +6,7 @@ import MyImage03 from "@/components/image/m9.png";
 import MyImage04 from "@/components/image/m10.png";
 import MyImage05 from "@/components/image/m11.png";
 import MyImage06 from "@/components/image/m12.png";
+import Image from "next/image";
 import {
   Card,
   CardFooter,
@@ -30,9 +31,11 @@ const Project = () => {
       <div className="flex flex-col md:flex-row justify-center items-center gap-5 max-w-[900px] mx-auto my-0 mt-7 mb-3">
         <div className="image flex flex-col justify-center items-center gap-6">
           <Card>
-            <img
+            <Image
               src={MyImage03.src}
               alt="project sample image"
+              width={1080}
+              height={1080}
               className="main-001"
             />
             <CardTitle>Park Adventure...</CardTitle>
@@ -47,9 +50,11 @@ const Project = () => {
             </CardFooter>
           </Card>
           <Card>
-            <img
+            <Image
               src={MyImage02.src}
               alt="project sample image"
+              width={400}
+              height={300}
               className="main-001"
             />
             <CardTitle>Famous World...</CardTitle>
@@ -66,9 +71,11 @@ const Project = () => {
             </CardFooter>
           </Card>
           <Card>
-            <img
+            <Image
               src={MyImage05.src}
               alt="project sample image"
+              width={1080}
+              height={1920}
               className="main-001"
             />
             <CardTitle>Aligners...</CardTitle>
@@ -87,9 +94,11 @@ const Project = () => {
         </div>
         <div className="image flex flex-col justify-center items-center gap-6">
           <Card>
-            <img
+            <Image
               src={MyImage06.src}
               alt="project sample image"
+              width={1080}
+              height={1920}
               className="main-001"
             />
             <CardTitle>Portfolio...</CardTitle>
@@ -104,9 +113,11 @@ const Project = () => {
             </CardFooter>
           </Card>
           <Card>
-            <img
+            <Image
               src={MyImage01.src}
               alt="project sample image"
+              width={400}
+              height={300}
               className="main-001"
             />
             <CardTitle>D-Mart...</CardTitle>
@@ -121,9 +132,11 @@ const Project = () => {
             </CardFooter>
           </Card>
           <Card>
-            <img
+            <Image
               src={MyImage04.src}
               alt="project sample image"
+              width={1080}
+              height={1080}
               className="main-001"
             />
             <CardTitle>Music...</CardTitle>

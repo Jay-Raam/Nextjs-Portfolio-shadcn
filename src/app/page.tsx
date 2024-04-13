@@ -6,6 +6,7 @@ import { HomeIcon, Twitter, Instagram, Rss, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import MyImage01 from "@/components/image/m2.webp";
 import Link from "next/link";
+import Image from "next/image";
 
 const occupations = ["Freelancer", "Blogger", "Gamer", "Writer", "Student"];
 
@@ -87,9 +88,11 @@ export default function Home() {
           </Link>
         </div>
         <div className="image w-full flex justify-center items-center lg:w-[50%]">
-          <img
+          <Image
             src={MyImage01.src}
             alt="modal"
+            width={300}
+            height={200}
             className="flex justify-center items-center w-full h-auto lg:w-[300px]"
           />
         </div>
